@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iCode</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">iCode</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                       ><ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/results?search_query=html+code+with+harry"
+                                    target="_blank">HTML5</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/results?search_query=python+code+with+harry"
+                                    target="_blank">Python</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.youtube.com/watch?v=6mbwJ2xhgzM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                                    target="_blank">Web Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#Login/SignUpModal"
+                        style="width: 110px;"><small>Login/SignUp</small></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login/SignUp Modal -->
+    <div class="modal fade" id="Login/SignUpModal" tabindex="-1" aria-labelledby="Login/SignUpModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="Login/SignUpModalLabel">iCode - Blog</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-content rounded-4 shadow">
+                        <div class="modal-header p-5 pb-4 border-bottom-0">
+                            <h3 class="fw-bold mb-0 fs-2"><small>Login / SignUp</small></h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                                fdprocessedid="ao1mha"></button>
+                        </div>
+
+                        <div class="modal-body p-5 pt-0">
+                            <form class="">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control rounded-3" id="floatingInput"
+                                        placeholder="name@example.com" fdprocessedid="7cd9z9">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                        placeholder="Password" fdprocessedid="wz37y">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit"
+                                    fdprocessedid="fcmj2k">Login</button>
+                                <a href=""> Forgotten Password? </a>
+                                <hr class="my-4">
+                                <h2 class="fs-5 fw-bold mb-3">Or SignUp For Free</h2>
+                                <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                                <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit"
+                                    fdprocessedid="s0at5o">
+                                    <svg class="bi me-1" width="16" height="16">
+                                        <use xlink:href="#twitter"></use>
+                                    </svg>
+                                    Sign up with Google
+                                </button>
+                                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit"
+                                    fdprocessedid="4si0j">
+                                    <svg class="bi me-1" width="16" height="16">
+                                        <use xlink:href="#facebook"></use>
+                                    </svg>
+                                    Sign up with Facebook
+                                </button>
+                                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit"
+                                    fdprocessedid="048eu3">
+                                    <svg class="bi me-1" width="16" height="16">
+                                        <use xlink:href="#github"></use>
+                                    </svg>
+                                    Sign up with Microsoft Account
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--about section-->
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Hii I'm Yash Raj - <span class="text-muted">This Blog Page
+                        will Blow your Mind.</span></h2>
+                <p></p>I have Created Blog and This page is all about Technology Trends and Future Scopes in IT Field
+                and Technology News. Currently I am a BCA final Year Student. My Strengths are Core Python || HTML5 ||
+                Bootstrap || C Language.</p>
+                <span class="text-muted"></span>
+            </div>
+            <div class="col-md-5">
+                <img src="/AboutUs.jpg" width="400" height="400">
+            </div>
+        </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Our Vision is to - <span class="text-muted">Become the
+                        Best Blog Page interms of IT News and Trends</span></h2>
+                <p class="lead">We Provide the Best UserInterface Experience. We give Accurate News inTerms of
+                    Technology.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="/Linkedln Profile.png" width="400" height="400">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 iCode - Blog, Inc. All rights reserved.</span>
+            </div>
+            <div>
+                <p class="float-end"><a href="#">Back to top</a></p>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/yashraj16" target="_blank"><img
+                            src="/LinkedIn Logo.jpg" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://instagram.com/yash_barnwal16?igshid=Yzg5MTU1MDY="
+                        target="_blank"><img src="/Insta Logo.jpg" width="34" height="24"></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
